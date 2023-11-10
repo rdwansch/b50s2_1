@@ -1,0 +1,31 @@
+# POST http://localhost:8000/api/books HTTP/1.1
+# Content-Type: application/json
+# Accept: application/json
+
+# {
+#   "title": "Rich Person",
+#   "author": "Jasmine",
+#   "code": "BK/03",
+#   "releasedAt": "2005"
+# }
+
+
+# GET http://localhost:8000/api/books HTTP/1.1
+# Accept: application/json
+
+
+
+# PUT http://localhost:8000/api/books/6 HTTP/1.1
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#   "title": "change",
+#   "author": "Ryan D.",
+#   "code": "CV/01",
+#   "releasedAt": "28-04-2005"
+# }
+
+
+# DELETE http://localhost:8000/api/books/2 HTTP/1.1
+# Accept: application/json
